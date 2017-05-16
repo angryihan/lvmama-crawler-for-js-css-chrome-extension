@@ -1,14 +1,20 @@
 {
     "manifest_version": 2,
-    "name": "lvmama-crawler-for-js-css-chrome-extension",
-    "description": "驴妈妈缓存爬虫-chrome插件版",
-    "version": "1.0",
+    "name": "驴妈妈缓存统计神器",
+    "description": "驴妈妈缓存统计神器-chrome插件版",
+    "version": "17.5.16",
     "browser_action": {
-        "default_icon": "icon.png",
-        "default_title": "Click here!"
+        "default_icon": "assets/images/icon.png",
+        "default_title": "驴妈妈缓存统计神器"
+    },
+    "icons": {
+        "16": "assets/images/icon.png",
+        "48": "assets/images/icon48.png",
+        "72": "assets/images/icon100.png",
+        "128": "assets/images/icon100.png"
     },
     "background": {
-        "page":"background.html"
+        "page": "background.html"
     },
-    "permissions": ["http://*.lvmama.com/*","http://*/*","tabs","file:///*"]
+    "permissions": ["http://*.lvmama.com/*", "http://*/*", "tabs", "file:///*"]
 }

@@ -91,7 +91,7 @@ $(function() {
 
         <div id="angryihan-crawler">
             <div id="angryihan-crawler-main">
-                <p id="angryihan-title">驴妈妈缓存爬虫</p>
+                <p id="angryihan-title">驴妈妈缓存统计神器</p>
                 <input id="angryihan-keyword" type="text" placeholder="请输入关键词">
                 <div id="angryihan-btn-part">
                     <button id="angryihan-search-btn" class="angryihan-btn">搜索</button>
