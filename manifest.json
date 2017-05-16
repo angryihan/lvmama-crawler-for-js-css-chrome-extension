@@ -16,5 +16,5 @@
     "background": {
         "page": "background.html"
     },
-    "permissions": ["http://*.lvmama.com/*", "http://*/*", "tabs", "file:///*"]
+    "permissions": ["http://*.lvmama.com/*", "https://*.lvmama.com/*", "tabs", "file:///*"]
 }
