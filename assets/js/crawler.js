@@ -13,13 +13,13 @@ $(function() {
                 outline: none;
             }
             #angryihan-crawler {
-                position:fixed;
-                right:0;
-                top:0;
+                position: fixed;
+                right: 0;
+                top: 0;
                 z-index: 9999;
                 width: 320px;
-                border: 1px solid #c1c1c1;
-                background:#fff;
+                border: 1px solid #ccc;
+                background: #fff;
                 border-radius: 8px;
                 box-shadow: 0px 2px 3px 0px rgba( 0, 0, 0,0.13);
             }
@@ -31,7 +31,7 @@ $(function() {
                 height: 28px;
                 padding: 0 5px;
                 margin-top: 8px;
-                border: 1px solid #c1c1c1;
+                border: 1px solid #ccc;
                 line-height: 28px;
             }
             #angryihan-crawler-main {
@@ -54,12 +54,12 @@ $(function() {
                 font-size: 14px;
                 line-height: 28px;
                 cursor: pointer;
-                color: #666666;
-                border: 1px solid #c1c1c1;
+                color: #666;
+                border: 1px solid #ccc;
                 border-radius: 3px;
-                background-color: #ffffff;
+                background-color: #fff;
             }
-            .angryihan-btn:hover {
+            .angryihan-btn:hover, .angryihan-btn:focus {
                 color: #e38;
                 border-color: #e38;
             }
@@ -77,7 +77,7 @@ $(function() {
                 margin-top: 8px;
                 margin-bottom: 0;
                 padding: 0 5px;
-                border: 1px solid #c1c1c1;
+                border: 1px solid #ccc;
                 line-height: 20px;
                 word-break: break-all;
             }
@@ -86,7 +86,7 @@ $(function() {
                 height: 8px;
             }
             #angryihan-result::-webkit-scrollbar-track {
-                background-color: #eeeeee;
+                background-color: #eee;
                 border-radius: 4px;
             }
             #angryihan-result::-webkit-scrollbar-thumb {
