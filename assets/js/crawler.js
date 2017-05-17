@@ -17,11 +17,14 @@ $(function() {
                 right:0;
                 top:0;
                 z-index: 9999;
-                width: 300px;
-                padding: 10px;
+                width: 320px;
                 border: 1px solid #c1c1c1;
                 background:#fff;
                 border-radius: 8px;
+                box-shadow: 0px 2px 3px 0px rgba( 0, 0, 0,0.13);
+            }
+            .angryihan-crawler-hide {
+                display: none;
             }
             #angryihan-keyword {
                 width: 288px;
@@ -30,6 +33,9 @@ $(function() {
                 margin-top: 8px;
                 border: 1px solid #c1c1c1;
                 line-height: 28px;
+            }
+            #angryihan-crawler-main {
+                padding: 10px;
             }
             #angryihan-title {
                 text-align: center;
@@ -40,11 +46,11 @@ $(function() {
                 margin-top: 8px;
             }
             .angryihan-btn {
-                float: left;
-                display:block;
+                display: block;
                 width: 147px;
                 height: 28px;
                 padding: 0 5px;
+                margin: 0;
                 font-size: 14px;
                 line-height: 28px;
                 cursor: pointer;
@@ -108,7 +114,7 @@ $(function() {
 
     function init() {
         if ($("#angryihan-crawler").length) {
-            $("#angryihan-crawler").show();
+            $("#angryihan-crawler").toggleClass("angryihan-crawler-hide");
         } else {
             $('body').append(crawlerDom);
             $crawler = $("#angryihan-crawler");
@@ -142,7 +148,7 @@ $(function() {
         });
         // 隐藏
         $(document).on("click", function(){
-            $crawler.hide();
+            $crawler.addClass("angryihan-crawler-hide");
         });
         // 阻止冒泡
         $crawlerMain.on("click", function(e){
